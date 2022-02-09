@@ -1,0 +1,95 @@
+/*Estetica generale*/
+*{
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+:root{
+    --logo-color: lime;
+}
+
+body{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.riquadro{
+    background-color: rgba(0,0,0,0.5);
+    width: 900px;
+    margin: auto;
+    padding-top: 2.5%;
+    padding-bottom: 10%;
+    border-radius: 2.5%;
+}
+
+/*Estetica per l'intestazione*/
+header{
+    text-align: center;
+    color: var(--logo-color);
+}
+
+header img{
+    width: 20%;
+    height: 10%;
+    padding-top: 6%;
+}
+
+header h1{
+    margin: auto;
+}
+
+/*Estetica generale per il secondo riquadro più stretto*/
+div > div{
+    width: 700px;
+    margin: auto;
+}
+
+nav{
+    text-align: center;
+    background-color: var(--logo-color);
+    padding: 1%;
+}
+
+button, input[type="checkbox"]{
+    cursor: pointer;
+}
+
+
+/*Estetica per il corpo degli annunci*/
+main h3{
+    display: inline-block;
+    color: white;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+main p{
+    color: lightgrey;
+    margin: 0;
+    font-size: smaller;
+}
+
+/*Estetica per le barre di carica dei monopattini*/
+.barra{
+    border-radius: 5px;
+}
+
+.barra.prima{
+    background-color: peru;
+    width: 50%;
+    color: peru;
+}
+
+.barra.seconda{
+    background-color: yellowgreen;
+    width: 75%;
+    color: yellowgreen;
+}
+
+.barra.terza{
+    background-color: teal;
+    width: 35%;
+    color: teal;
+}
